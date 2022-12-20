@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+}
+/**************************/
+/* HEADER */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 12.8rem;
+  padding: 3.2rem 12.8rem;
+  position: relative;
+}
+.logo:link,
+.logo:visited {
+  font-size: 3.2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #00418c;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #00418c;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  box-shadow: 0.1rem 0.1rem 2rem 0.1rem hsla(212, 100%, 27%, 0.6);
+}
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 118.4rem;
+  margin: 0 auto;
+  /* padding: 0 3.2rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 3.2em;
+  color: #333;
+  font-weight: 700;
+}
+.heading-primary-profession {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #00418c;
+}
+.profession-name {
+  font-weight: 700;
+}
+.heading-secondary {
+  color: #adb5bd;
+  font-size: 1.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+.hero-description {
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  line-height: 1.4;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 1rem 3.2rem;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  font-size: 600;
+}
+.hire-cta:link,
+.hire-cta:visited {
+  color: #fff;
+  background-color: #00418c;
+  margin-top: 2.4rem;
+  margin-right: 1rem;
+}
+.hire-cta:hover,
+.hire-cta:visited {
+  box-shadow: 0.1rem 0rem 2rem 0.1rem hsla(212, 100%, 27%, 0.6);
+}
+.work-cta:link,
+.work-cta:visited {
+  color: #333;
+}
+.work-cta:hover,
+.work-cta:active {
+  box-shadow: inset 0 0 0 3px #00418c;
+}
