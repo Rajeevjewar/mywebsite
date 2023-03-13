@@ -12,6 +12,14 @@ body {
   /* font-family: "Rubik", sans-serif; */
 }
 /**************************/
+/* GENERAL CSS */
+/**************************/
+.container {
+  max-width: 1200rem;
+  margin: 0 auto;
+  padding: 0 9.6rem;
+}
+/**************************/
 /* HEADER */
 /**************************/
 .header {
@@ -70,7 +78,7 @@ body {
 }
 
 .hero {
-  max-width: 118.4rem;
+  max-width: 1300rem;
   margin: 0 auto;
   /* padding: 0 3.2rem; */
   display: grid;
@@ -134,4 +142,21 @@ body {
 .work-cta:hover,
 .work-cta:active {
   box-shadow: inset 0 0 0 3px #00418c;
+}
+/**************************/
+/* WORK SECTION */
+/**************************/
+.section-work {
+  padding: 9.6rem;
+}
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 9.6rem;
+  border-radius: 2rem;
+}
+.work-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
